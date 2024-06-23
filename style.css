@@ -7,3 +7,75 @@
   font-family: Wallpoet;
   src: url(./fonts/Wallpoet-Regular.ttf);
 }
+
+body {
+  background-color: #1b1b1b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 99.75vh;
+}
+
+#stopwatch-display {
+  color: #ffb800;
+  font-family: Wallpoet;
+  font-size: 20vh;
+}
+
+.stopwatch-buttons {
+  display: flex;
+  font-family: Roboto;
+}
+
+#start-timer,
+#pause-timer {
+  margin-right: 1.25vw;
+}
+
+#start-button,
+#pause-button,
+#reset-button {
+  border: none;
+  height: 11vh;
+  width: 15.75vw;
+  font-size: 7vh;
+  font-weight: bold;
+  color: white;
+}
+
+#start-button {
+  background-color: #00ae44;
+}
+
+#start-button:hover {
+  background-color: #00bc48;
+}
+
+#pause-button {
+  background-color: #d42d2d;
+}
+
+#pause-button:hover {
+  background-color: #ea2e2e;
+}
+
+#reset-button {
+  background-color: #2ba7ce;
+}
+
+#reset-button:hover {
+  background-color: #30b7e0;
+}
+
+#start-button:active {
+  background-color: #00c94d;
+}
+
+#pause-button:active {
+  background-color: #f43232;
+}
+
+#reset-button:active {
+  background-color: #33c1ec;
+}
